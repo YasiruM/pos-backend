@@ -14,6 +14,10 @@ public class User {
     private String name;
     @Column(name="uRole")
     private String uRole;
+    @Column(name="userName")
+    private String userName;
+    @Column(name="password")
+    private String password;
 
 
     public Integer getUserId() {
